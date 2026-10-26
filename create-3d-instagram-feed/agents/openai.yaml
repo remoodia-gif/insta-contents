@@ -1,0 +1,13 @@
+interface:
+  display_name: 3D 인스타 피드 제작
+  short_description: 블로그 원고를 일관된 3D 스타일의 한국어 인스타 카드뉴스로 제작
+  default_prompt: $create-3d-instagram-feed 스킬로 이 원고를 3D 인스타 피드 4장으로 만들어줘.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
